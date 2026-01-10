@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Lounis Cartron - Portfolio</title>
+</head>
+<body>
+
+    <nav>
+        <div class="nav-content">
+            <p class="logo">Lounis CARTRON</p>
+            <ul>
+                <li><a href="#about">À Propos</a></li>
+                <li><a href="#formation">Parcours</a></li>
+                <li><a href="#competences">Compétences</a></li>
+                <li class="dropdown">
+                    <a href="#projects">Projets</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#project-serre">Serre Automatisée</a></li>
+                        <li><a href="#project-agricole">Travaux Agricoles</a></li>
+                    </ul>
+                </li>
+                <li><a href="#passions">Passions</a></li>
+                <li><a href="#contact" class="btn-contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header>
+        <div class="hero-content">
+            <h1>Lounis CARTRON</h1> 
+            <h2>Étudiant en BUT Réseaux et Télécoms</h2>
+            <img src="pdp.png" alt="Lounis Cartron Photo" class="profile-pic">
+        </div>
+    </header>
+
+    <main>
+        <section id="about">
+            <div class="container">
+                <h2 class="section-title">À Propos de moi</h2>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p><strong>J'ai 18 ans et je suis originaire de Clermont-Ferrand.</strong></p>
+                        
+                        <p>Je suis étudiant en BUT Réseaux et Télécommunications, motivé par les infrastructures réseau, la cybersécurité et les services télécoms.</p>
+                        
+                        <p>J'aime apprendre en pratiquant : diagnostiquer des pannes et voir un service reprendre vie après une configuration réussie. J'ai choisi cette filière pour son côté concret et professionnalisant.</p>
+                        
+                        <p>J'aime creuser et chercher l'origine d'un problème et je communique clairement pour que l'équipe avance ensemble.</p>
+                        
+                        <p>Je recherche une alternance pour septembre 2026. Le rythme serait d'un mois en entreprise et un mois en formation. Cette alternance me permettrait de mettre en pratique mes compétences, contribuer à des projets réseau concrets et monter en responsabilité vers des missions d'ingénierie ou d'exploitation réseau.</p>
+                        
+                        <p>Mon objectif après le BUT est d'intégrer une école d'ingénieur.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="formation" class="bg-light">
+            <div class="container">
+                <h2 class="section-title">Mon Parcours</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="date">Sept 2025 - Présent</div>
+                        <div class="content">
+                            <h3>BUT Réseaux et Télécommunications</h3>
+                            <p>IUT Clermont Auvergne - Site d'Aubière</p>
+                            <p><small>Apprentissage des protocoles, administrateur système et sécurité.</small></p>
+                            <img src="iut.webp" alt="IUT Aubière" class="formation-img">
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="date">2022 - 2025</div>
+                        <div class="content">
+                            <h3>Baccalauréat Général</h3>
+                            <p>Lycée Godefroy de Bouillon - Clermont-Ferrand</p>
+                            <p><small>Spécialités : Mathématiques et Physique-Chimie</small></p>
+                            <img src="lycée.webp" alt="Lycée Clermont" class="formation-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="competences">
+            <div class="container">
+                <h2 class="section-title">Compétences & Qualités</h2>
+                
+                <div class="skills-grid">
+                    <article class="skill-card">
+                        <h3>Administration Réseaux</h3>
+                        <p class="skill-detail"><strong>Configuration :</strong> Mise en place de points d'accès Wi-Fi, VLANs, routage (Cisco Packet Tracer).</p>
+                        <p class="skill-detail"><strong>Administration :</strong> Services DHCP/DNS.</p>
+                        <p class="skill-detail"><strong>Logiciels :</strong> Cisco Packet Tracer (simulation), Wireshark (analyse de trames), VMWare.</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <h3>Télécommunications</h3>
+                        <p class="skill-detail"><strong>Supports de Trans. :</strong> Câblage structuré (cuivre/RJ45), réalisation de jarretières et introduction à la fibre optique.</p>
+                        <p class="skill-detail"><strong>Signal :</strong> Analyse de signaux basiques (fréquence, amplitude, bande passante) et conversion analogique/numérique.</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <h3>Système & Web</h3>
+                        <p class="skill-detail"><strong>Linux (Debian) :</strong> Navigation en ligne de commande (CLI), gestion des droits (chmod) des utilisateurs.</p>
+                        <p class="skill-detail"><strong>Web :</strong> Création de sites statiques structurés (HTML) et mise en page responsive (CSS), comme ce portfolio.</p>
+                        <p class="skill-detail"><strong>Programmation :</strong> Scripts d'automatisation simples en Python.</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <h3>Savoir-être</h3>
+                        <p class="skill-detail"><strong>Rigueur :</strong> Méthodique dans les diagnostics de pannes (approche OSI).</p>
+                        <p class="skill-detail"><strong>Curiosité :</strong> Veille technologique constante sur les nouvelles failles de sécurité.</p>
+                        <p class="skill-detail"><strong>Esprit d'équipe :</strong> Communication claire pour la résolution d'incidents.</p>
+                    </article>
+
+                    <article class="skill-card">
+                        <h3>Langues</h3>
+                        <ul class="lang-list">
+                            <li>
+                                <span>Anglais</span>
+                                <span class="level">Niveau B1+</span>
+                            </li>
+                            <li>
+                                <span>Espagnol</span>
+                                <span class="level">Niveau C1</span>
+                            </li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="container">
+                <h2 class="section-title">Projets & Expériences</h2>
+                
+                <article class="project-card" id="project-serre">
+                    <details class="project-details">
+                        <summary>
+                            <img src="serre.jpg" alt="Serre">
+                            <div class="summary-title-wrapper">
+                                <span class="title">Conception d'une Serre Automatisée</span>
+                                <span class="badge">1ère Générale - SI</span>
+                            </div>
+                        </summary>
+                        <div class="project-content-inner">
+                            <div class="detail-section">
+                                <h4>Objectif</h4>
+                                <p>Créer un système capable de réguler automatiquement la température d'une serre miniature pour maintenir des conditions optimales de croissance des plantes.</p>
+                            
+                            </div>
+                            <div class="detail-section">
+                                <h4>Contexte</h4>
+                                <p>Projet de fin de semestre de 12h en équipe de 3 étudiants (Mini-projet SI). Ce projet combine électronique, programmation et modélisation 3D.</p>
+                            
+                            
+                            
+                                <h4>Planification</h4>
+                                <ul>
+                                    <li><strong>Semaine 1-2 :</strong> Recherche et conception du système de régulation</li>
+                                    <li><strong>Semaine 3 :</strong> Modélisation 3D des supports sur SolidWorks</li>
+                                    <li><strong>Semaine 4 :</strong> Programmation Arduino et assemblage</li>
+                                </ul>
+                            
+                            
+                            
+                                <h4>Conception</h4>
+                                <ul>
+                                    <li><strong>Programmation :</strong> Développement d'un algorithme sur carte Arduino (Si Temp > 25°C alors activer le ventilateur)</li>
+                                    <li><strong>Modélisation :</strong> Conception des pièces supports en 3D sur SolidWorks</li>
+                                    <li><strong>Électronique :</strong> Intégration du capteur de température DHT22 et du module relais</li>
+                                </ul>
+                            
+                                <h4>Tests et Ajustements</h4>
+                                <ul>
+                                    <li>Calibration du capteur de température pour une précision de ±0.5°C</li>
+                                    <li>Ajustement des seuils de déclenchement du ventilateur</li>
+                                    <li>Tests de durabilité sur 48h en conditions réelles</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="detail-section results">
+                                <h4>Résultats</h4>
+                                <div style="display: flex; gap: 1.5rem; align-items: center; flex-wrap: wrap;">
+                                    <div style="flex: 1; min-width: 250px;">
+                                        <p>Prototype fonctionnel capable de maintenir la température entre 18°C et 24°C avec une précision remarquable. Le système a démontré sa fiabilité lors de tests prolongés et a reçu une excellente évaluation de notre professeur.</p>
+                                    </div>
+                                    <div style="flex: 0 0 200px;">
+                                        <img src="solidworks.jpg" alt="Résultat Serre" style="width: 100%; border-radius: 8px; border: 1px solid var(--border);">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </details>
+                </article>
+            </div>
+        </section>
+        
+        <section id="project-agricole">
+            <div class="container">
+                <article class="project-card">
+                    <details class="project-details">
+                        <summary>
+                            <img src="mais.jpg" alt="Maïs">
+                            <div class="summary-title-wrapper">
+                                <span class="title">Assistant Travaux Agricoles</span>
+                                <span class="badge">Job d'été 2024</span>
+                            </div>
+                        </summary>
+                        <div class="project-content-inner">
+                            <div class="detail-section">
+                                <h4>Missions Quotidiennes</h4>
+                                <ul>
+                                    <li><strong>Matin (6h–12h) :</strong> Inspection des parcelles et contrôle qualité.</li>
+                                    <li><strong>Après-midi (14h–18h) :</strong> Travaux d'entretien et maintenance du matériel.</li>
+                                    <li><strong>Reporting :</strong> Documentation quotidienne des observations et détection de maladies.</li>
+                                </ul>
+                                <h4>Compétences Développées</h4>
+                                <p>Cette expérience m'a permis de renforcer ma rigueur et mon endurance. Le travail en équipe sous des délais stricts de récolte demande une communication claire et une grande réactivité.</p>
+                            </div>
+
+                            <div class="detail-section results">
+                                <h4>Résultats & Impact</h4>
+                                <p>Mission accomplie avec succès. Reconnaissance par l'exploitant pour la qualité du travail fourni et la précision du suivi des parcelles de maïs.</p>
+                            </div>
+                        </div>
+                    </details>
+                </article>
+            </div>
+        </section>
+
+        <section id="passions">
+            <div class="container">
+                <h2 class="section-title">Mes Passions</h2>
+                <div class="passion-grid">
+                    <article class="passion-card">
+                        <div class="passion-image">
+                            <img src="salle muscu.webp" alt="Salle de sport">
+                        </div>
+                        <div class="passion-content">
+                            <h3>Musculation & Fitness</h3>
+                            <p>Passionné de musculation depuis 2 ans, je m'entraîne régulièrement 4 à 5 fois par semaine. La salle de sport m'apporte discipline, dépassement de soi et gestion du stress.</p>
+                            <p>Cette pratique développe ma rigueur, ma persévérance et ma capacité à me fixer des objectifs à long terme - des qualités que je transpose dans mes études et projets professionnels.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="cv">
+            <div class="container text-center">
+                <h2 class="section-title">Mon CV</h2>
+                <div class="cv-place-holder">
+                    <img src="image cv.jpg" alt="CV Lounis Cartron" width="75%" />
+                </div>
+                <div style="margin-top: 1.5rem;">
+                    <a href="cv.pdf" download="LOUNIS CARTRON CV.pdf" class="btn-primary">Télécharger mon CV</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container text-center">
+                <h2 class="section-title">Me Contacter</h2>
+                <p>Si mon profil vous intéresse, veuillez me contacter par mail sur l'adresse : </p>
+                <a href="mailto:lounis.cartron@etu.uca.fr"><strong>lounis.cartron@etu.uca.fr</strong></a> 
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Lounis Cartron.</p>
+    </footer>
+
+</body>
+</html>
